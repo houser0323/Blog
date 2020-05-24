@@ -28,7 +28,7 @@
 ```
 ### 起飞  
 本来想再啰嗦点东西的，为了简洁起见直接起飞。  
-1.后台启动```nohup sslocal -c /etc/shadowsocks/shadowsocks.json >/dev/null 2>&1 &```
+1.后台启动```nohup sslocal -c /etc/shadowsocks/shadowsocks.json >/dev/null 2>&1 &```  
 2.settings--> NetWork-->NetWorkProxy--> Manual-->Socks Host改为你json中的```local_address```和```local_port```。比如我的是```127.0.0.1 8888```  
 目前为止已经能结束了，把浏览器的proxy设置为```遵循系统设置```,打开google验证。如果不行重启再来一遍    
 
@@ -62,6 +62,6 @@ firefox国内网络不能看b站直播，用ss代理完美流畅原画；
 这是个丐版的流程，遇到问题多百度吧，图形界面我没装，sslocal自带后台参数也用不起来，开机启动也没配。需求是折腾的第一动力       
 ### 参考  
 [Ubuntu 18.04 安装shadowsocks](https://wylu.me/posts/eed37a90/)  
-[Ubuntu配置Shadownsocks以及配置pac规则](https://www.mspring.org/2018/11/17/Ubuntu%E9%85%8D%E7%BD%AEShadownsocks%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AEpac%E8%A7%84%E5%88%99/)
-[ubuntu下, 使用shadowsock和Privoxy帮助你在命令行中, 无障碍进行go get ](https://gist.github.com/alexniver/9a4f1791fe4305b0750a)
-[https://forums.gentoo.org/viewtopic-t-279695-start-0.html](https://forums.gentoo.org/viewtopic-t-279695-start-0.html)
+[Ubuntu配置Shadownsocks以及配置pac规则](https://www.mspring.org/2018/11/17/Ubuntu%E9%85%8D%E7%BD%AEShadownsocks%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AEpac%E8%A7%84%E5%88%99/)  
+[ubuntu下, 使用shadowsock和Privoxy帮助你在命令行中, 无障碍进行go get ](https://gist.github.com/alexniver/9a4f1791fe4305b0750a)  
+[https://forums.gentoo.org/viewtopic-t-279695-start-0.html](https://forums.gentoo.org/viewtopic-t-279695-start-0.html)  
