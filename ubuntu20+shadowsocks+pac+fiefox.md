@@ -52,7 +52,7 @@ sudo genpac --pac-proxy="SOCKS5 127.0.0.1:8888" -o autoproxy.pac --gfwlist-url="
 搞不懂为哈，直接开链接都行的阿，复制到本地吧，换个参数生成.pac  
 - Chrome能上网为啥firefox不行？  
 设置firefox的proxy为```Use system proxy settings```  
-还有就是别死磕：为啥按步骤来的阿，为啥我不行。走完了流程重启，一般都会有好事发生  
+还有就是别死磕：为啥按步骤来的阿，为啥我不行。走完了流程重启，一般都会ok  
 
 - **感受**  
 500G流量我用不完，所以我不用PAC模式；  
